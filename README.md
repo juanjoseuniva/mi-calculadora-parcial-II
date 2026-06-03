@@ -15,3 +15,7 @@ Calculadora en PHP con pruebas unitarias (PHPUnit) e integración continua con G
 ## URL del repositorio
 
 https://github.com/juanjoseuniva/mi-calculadora-parcial-II.git
+
+# Integrantes
+
+Juan José Campo López
