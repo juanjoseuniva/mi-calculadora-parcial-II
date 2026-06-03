@@ -1,0 +1,17 @@
+name: PHP Continuous Integration
+on:
+  push:
+    branches: [ "main", "desarrollo" ]
+  pull_request:
+    branches: [ "main", "desarrollo" ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml
+      - run: composer install --no-progress --prefer-dist
+      - run: ./vendor/bin/phpunit tests
