@@ -19,3 +19,7 @@ https://github.com/juanjoseuniva/mi-calculadora-parcial-II.git
 # Integrantes
 
 Juan José Campo López
+
+# Links de los commits
+
+https://github.com/juanjoseuniva/mi-calculadora-parcial-II/commits/main/
